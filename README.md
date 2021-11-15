@@ -2,9 +2,16 @@
 [![npm version](https://img.shields.io/npm/v/lrz.svg)](https://www.npmjs.com/package/lrz)
 [![npm](https://img.shields.io/npm/l/express.svg)]()
 
-# 🚨重要!!
+# lrz（自行维护）
 
-很抱歉，这个项目已不再维护了，可能很长一段时间都不会更新了。
+## 自行修改
+
+[修复小米手机Mi 11 Lite上 useragent AppleWebKit 和数字之间 无 ‘/’ 斜线时的判断问题
+](http://192.168.177.251:8000/mobile-middle-platform/localResizeIMG/commit/9f51011c3053dc8e209fb137fc7864a3eb09cf6f)
+
+## 原来项目
+
+原来项目已不再维护了，可能很长一段时间都不会更新了。
 
 # 演示
 
