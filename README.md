@@ -7,7 +7,7 @@
 ## 自行修改
 
 [修复小米手机Mi 11 Lite上 useragent AppleWebKit 和数字之间 无 ‘/’ 斜线时的判断问题
-](http://192.168.177.251:8000/mobile-middle-platform/localResizeIMG/commit/9f51011c3053dc8e209fb137fc7864a3eb09cf6f)
+](http://192.168.177.251:8000/mobile-middle-platform/localResizeIMG/commit/2f1775cc182e8a779f25abffedb4fc3601ce4dd5)
 
 ## 原来项目
 
