@@ -29,10 +29,9 @@ function hasFormDataBug () {
         && ~navigator.vendor.indexOf('Google')
         && !~navigator.userAgent.indexOf('Chrome');
 
+    var webkitMatchResult = navigator.userAgent.match(/AppleWebKit\/(\d+)/) || navigator.userAgent.match(/AppleWebKit(\d+)/);
     // QQ X5浏览器也有这个BUG
-    return (bCheck && navigator.userAgent.match(/AppleWebKit\/(\d+)/).pop() <= 534) ||
-      (bCheck && navigator.userAgent.match(/AppleWebKit(\d+)/).pop() <= 534)  ||
-      /MQQBrowser/g.test(navigator.userAgent);
+    return (bCheck && webkitMatchResult.pop() <= 534) || /MQQBrowser/g.test(navigator.userAgent);
 }
 var FormDataShim=(function(){
     var formDataShimNums = 0;
